@@ -16,14 +16,14 @@ class Gift < Formula
   on_macos do
     on_arm do
       url "https://github.com/sneeu/gift/releases/download/v#{version}/gift-macos-aarch64.tar.gz"
-      sha256 "92eb12f78af8670c509dda48e6c8544039add1add140fd8fc9ba6b5094e727d6"
+      sha256 "eb43d5e2d6c22b006a42da341da635d1dae7289f1f9b009bb9fc8b72c24d453b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/sneeu/gift/releases/download/v#{version}/gift-linux-x86_64.tar.gz"
-      sha256 "ae7160259bdee482519aa7b33b495863d2d58a7d9fa5b4cc13e25ccb1e53b786"
+      sha256 "sha256:3b5fe0965a09feff925d2d67e165b6158baa1bc13b99d1cf08bb91158473bc19"
     end
   end
 
