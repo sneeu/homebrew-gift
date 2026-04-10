@@ -10,20 +10,20 @@
 class Gift < Formula
   desc "Terminal UI for managing a GIF library stored in S3"
   homepage "https://github.com/sneeu/gift"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/sneeu/gift/releases/download/v#{version}/gift-macos-aarch64.tar.gz"
-      sha256 "938f292d98a87d4b29ff802c99d974fb1885b21c369dd51c217f91a2c877e657"
+      sha256 "48a8b845c60c524ea2d227a78f2500bc2bc5effdb0bf84b025e76a753bd40834"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/sneeu/gift/releases/download/v#{version}/gift-linux-x86_64.tar.gz"
-      sha256 "30c453f3107ee8c0a228a380015e61af94d58c204911f78f9d9fb661afd9b66b"
+      sha256 "6f66a5f35a30b40ceab9f4fc296acecf701f33203b6485d73cc853be90d3af98"
     end
   end
 
